@@ -1,0 +1,12 @@
+video_1.mp4	HTML(dynamic(N=10, resolution=1000, dtype='float32', circle=True, opencl=True, parallel=True, pparallel=True,
+             time_step=0.008, frames=80, random_charges=False).to_html5_video())
+
+video_2.mp4	HTML(dynamic(N=100, resolution=1000, dtype='float32', circle=True, opencl=True, parallel=True, pparallel=False,
+             time_step=0.008, frames=130, random_charges=True).to_html5_video())
+
+video_3.mp4	HTML(dynamic(N=100, resolution=1000, dtype='float32', circle=False, opencl=True, parallel=True, pparallel=False
+             time_step=0.008, frames=200, random_charges=True).to_html5_video())
+
+video_4.avi	HTML(dynamic(N=1000, resolution=1000, dtype='float32', circle=True, opencl=True, parallel=True, pparallel=False,
+             time_step=0.008, frames=80, random_charges=False).to_html5_video())
+
